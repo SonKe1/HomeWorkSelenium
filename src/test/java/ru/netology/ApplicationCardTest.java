@@ -33,12 +33,12 @@ public class ApplicationCardTest {
         $("[data-test-id=order-success]").shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
     }
 
-//     @Test
-//     public void testPhoneNumberConsistsZero() {
-//         $("[data-test-id=name] input").setValue("Миронов Артур");
-//         $("[data-test-id=phone] input").setValue("+70000000000");
-//         $("[data-test-id=agreement]").click();
-//         $("button.button").click();
-//         $("[data-test-id=order-success]").shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
-//     }
+    @Test
+    public void testPhoneNumberConsistsZero() {
+        $("[data-test-id=name] input").setValue("Миронов Артур");
+        $("[data-test-id=phone] input").setValue("+70000000000");
+        $("[data-test-id=agreement]").click();
+        $("button.button").click();
+        $("[data-test-id=order-success]").shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
+    }
 }
