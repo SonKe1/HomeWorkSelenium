@@ -1,3 +1,3 @@
-# Selenide
-Patterns [![Build status](https://ci.appveyor.com/api/projects/status/l2lba3mwx9yhdjcc?svg=true)](https://ci.appveyor.com/project/Volgogradec/aqa-2-3)
+# Selenium
+[![Build status](https://ci.appveyor.com/api/projects/status/46lo96x8mxu7q29s?svg=true)](https://ci.appveyor.com/project/SonKe1/homeworkselenium)
 
